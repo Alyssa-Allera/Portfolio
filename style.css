@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(249, 245, 255);
+    font-family: sans-serif;
+}
+header {
+    background-color: rgb(179, 74, 60);
+    position: fixed;
+    width: 300px;
+    height: 100%;
+}
+footer {
+    text-align: right;
+    background-color: rgb(73, 73, 73);
+    color: rgb(255, 245, 245);
+    padding: 1.5%;
+}
+#navBar {
+    background-color: rgb(30, 29, 34);
+    color: rgb(245, 242, 255);
+    padding: 5px 10px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+#navBar nav{
+    float: right;
+    padding-top: 10px;
+    padding-right: 3%;
+}
+#navBar nav ul li {
+    display: inline;
+    padding: 28px;
+}
+#navBar nav ul li a {
+    text-decoration: none;
+    color: rgb(240, 241, 255);
+}
+#navBar nav ul li a:hover{
+    color: rgb(121, 121, 121);
+}
+#navBar .logo {
+    padding-left: 5%;
+    float: left;
+    filter: invert(100%);
+}
+#navBar .logo:hover{
+    filter: invert(50%);
+}
+#intro {
+    padding-top: 100px;
+    padding-bottom: 30%;
+}
+#intro h1 {
+    font-size: 4em;
+}
+#intro h2 {
+    font-size: 2em;
+}
+#intro h2, i{
+    color: rgb(163, 58, 58);
+    line-height: 150%;
+}
+#intro p {
+    line-height: 160%;
+    font-size: 25px;
+}
+#intro b {
+    color: rgb(163, 58, 58);
+}
+#projects .container {
+    padding-bottom: 3%;
+}
+#projects img {
+    float: left;
+    padding-top: 3%;
+    width: 45%;
+}
+#projects p {
+    padding-top: 5%;
+    padding-left: 47%;
+}
+#contactMe img {
+    width: 50px;
+    padding-top: 30px;
+    padding-left: 40px;
+    filter: grayscale(100%);
+}
+#contactMe img:hover {
+    filter: grayscale(0%);
+}
+.imageProfile img{
+    padding-top: 30%;
+    padding-left: 17%;
+}
+.aboutMe{
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+.aboutMe h3, a{
+    line-height: 200%;
+}
+.aboutMe p {
+    color: rgb(255, 234, 234);
+    line-height: 150%;
+}
+.clr {
+    clear:both
+}
+.container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 330px;
+}
+.btn {
+    color: rgb(255, 234, 234);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn:hover {
+    color: rgb(59, 22, 59);
+}

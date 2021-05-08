@@ -71,6 +71,9 @@ footer {
 #intro b {
     color: rgb(163, 58, 58);
 }
+#moreAbout {
+    padding-top: 5%;
+}
 #moreAbout p {
     line-height: 200%;
     padding-left: 2%;
